@@ -1,6 +1,7 @@
 :root {
     --bg-color: #ffffff;
-    --font-color: #000000;
+    /*--font-color: #000000;*/
+    --font-color: #222222;
     /* highest contrast colors
     for light and dark themes */
     --red: #ec0000;
@@ -13,8 +14,8 @@
 @media (prefers-color-scheme: dark) {
     :root {
         /* change to dark theme */
-        --bg-color: #000000;
-        --font-color: #ffffff;
+        --bg-color: #222222;
+        --font-color: #eeeeee;
     }
 } 
 */
@@ -82,10 +83,10 @@ body {
     text-align: justify;
     /* browser focuses on readability */
     text-rendering: optimizeLegibility;
-    /* line length of 60 characters
+    /* line length of 70 characters
     (between recommended 45-80)
     & subtract the padding */
-    width: min(60ch, calc(100% - 2em));
+    width: min(70ch, calc(100% - 2em));
 }
 
 button,
@@ -163,11 +164,43 @@ table {
 
 tbody>tr:nth-child(odd) {
     /* set background of odd cells */
-    background: var(--gray);
+    /*background: var(--gray);*/
+    background: var(--white);
 }
 
 td,
 th {
-    border: 1px solid; 
+    padding: 20px;
+    border: 0px transparent; 
     border-collapse: collapse;
 }
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.crop {
+    width:200px;
+    height:200px;
+    overflow: hidden;
+}
+
+
+/*
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+*/
