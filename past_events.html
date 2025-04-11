@@ -22,6 +22,73 @@
 </header>
 <main>
 
+<h3 id="third-boston-symmetry-day-march-31-2025-at-northeastern">Third Boston Symmetry Day: March 31, 2025 at Northeastern</h3>
+<center>
+<table>
+<tr>
+<img src="images/bsd_sp2025_2.jpg" style="width:49%;padding-right:10px">
+<img src="images/bsd_sp2025_1.jpg" style="width:49%">
+</tr>
+<tr>
+<img src="images/bsd_sp2025_3.jpg" style="width:49%;padding-right:10px">
+<img src="images/bsd_sp2025_4.jpg" style="width:49%">
+</tr>
+</table>
+</center>
+<p>9:00-9:30. Breakfast + Registration</p>
+<p>9:30-9:40. Opening Remarks</p>
+<details>
+<summary> 9:40-10:20. Talk 1. Jiahui Fu  
+ </summary>
+Title: NeuSE: Neural SE(3)-Equivariant Embedding for Long-Term Object-based Simultaneous Localization and Mapping
+<p>Abstract: In this talk, we present NeuSE, a novel Neural SE(3)-Equivariant Embedding for objects, and illustrate how it supports object-based Simultaneous Localization and Mapping (SLAM) for consistent spatial understanding with long-term scene changes. NeuSE is a set of latent object embeddings created from partial object observations. It serves as a compact point cloud surrogate for complete object models, encoding the full shape, scale, and transform information about an object. In addition, the inferred latent code is both SE(3) and scale equivariant, enabling strong generalization to objects of both unseen sizes or different SE(3) poses. This makes NeuSE particularly effective in real-world scenarios where objects may vary in size or spatial configuration. With NeuSE, relative frame transforms can be directly derived from inferred latent codes. Our proposed SLAM paradigm, using NeuSE for object shape, size, and pose characterization, can operate independently or in conjunction with typical SLAM systems. It directly infers SE(3) camera pose constraints that are compatible with general SLAM pose graph optimization, while maintaining a lightweight object-centric map that adapts to real-world changes. We conducted evaluation on synthetic and real-world sequences with changes in both controlled and uncontrolled settings, featuring multi-category objects of various shapes and sizes. Our approach demonstrates improved localization capability and change-aware mapping consistency when operating either standalone or jointly with a common SLAM pipeline.</p>
+</details>
+<details>
+<summary>
+10:20-11:00. Talk 2. Melanie Weber
+</summary>
+Title: A Geometric Lens on Challenges in Graph Machine Learning: Insights and Remedies
+<p>Abstract: Graph Neural Networks (GNNs) are a popular architecture for learning on graphs. While they achieved notable success in areas such as biochemistry, drug discovery, and material sciences, GNNs are not without challenges: Deeper GNNs exhibit instability due to the convergence of node representations (oversmoothing), which can reduce their effectiveness in learning long-range dependencies that are often crucial in applications. In addition, GNNs have limited expressivity in that there are fundamental function classes that they cannot learn. In this talk we will discuss both challenges from a geometric perspective. We propose and study unitary graph convolutions, which allow for deeper networks that provably avoid oversmoothing during training. Our experimental results confirm that Unitary GNNs achieve competitive performance on benchmark datasets. An effective remedy for limited expressivity are encodings, which augment the input graph with additional structural information. We propose novel encodings based on discrete Ricci curvature, which lead to significant gains in empirical performance and expressivity thanks to capturing higher-order relational information. We then consider the more general question of how higher-order relational information can be leveraged most effectively in graph learning. We propose a set of encodings that are computed on a hypergraph parametrization of the input graph and provide theoretical and empirical evidence for their effectiveness.</p>
+</details>
+<p>11:00-11:20. Coffee</p>
+<p>11:20-11:30. Sponsor Talk 1. Liquid AI.</p>
+<details>
+<summary>
+11:30-12:10. Talk 3. Suhas Lohit
+</summary>
+Title: Efficiency through equivariance, and efficiency for equivariance
+<p>Abstract:
+In the first part of the talk, I will discuss equivariance in self-supervised learning methods to make learning annotation-efficient. I will describe spatial and temporal equivariance for self-supervised learning for lidar point clouds. Temporal equivariance is achieved by encouraging learning of features that are approximately equivariant to 3D scene flow. By combining this idea with spatial equivariance, we show improved 3D object detection results in autonomous driving datasets.</p>
+<p>In the second part, I will describe a general and efficient construction for equivariant neural networks, called Group Representation Networks (G-RepsNets). The architecture is based on using appropriate input representations and learning simple tensor polynomials that preserve equivariance for a chosen group. G-RepsNets are expressive networks that are applicable to a wide range of problems without needing task-specific complicated designs, and perform comparably with existing equivariant architectures while being computationally more efficient. G-RepsNets are also universal approximators of equivariant functions for orthogonal groups.</p>
+</details>
+<p>12:10-13:30. Lunch (provided at Northeastern)</p>
+<p>13:30-13:40. Sponsor Talk 2. Achira.</p>
+<details>
+<summary>
+13:40-14:20. Talk 4. Kathryn Lindsey
+</summary>
+Title: Implications of Symmetry Inhomogeneity for ReLU Neural Networks
+<p>Abstract: Parameterized function classes in machine learning are often highly redundant, meaning different parameter settings can represent the same function. For feedforward ReLU neural networks, the dimension of the local symmetry space varies significantly across parameter space. How does this inhomogeneity influence training dynamics and generalization? We will present both empirical and theoretical results that shed light on these effects.</p>
+</details>
+<p>14:20-15:20. Coffee + Poster Session</p>
+<p>15:20-15:30. Sponsor Talk 3. TILOS.</p>
+<details>
+<summary>
+15:30-16:10. Talk 5. Jianke Yang
+</summary>
+Title: Automatic Discovery of Symmetries and Governing Equations
+<p>Abstract:
+Equivariant methods require explicit knowledge of the symmetry group. To relax this constraint, we present a framework, LieGAN, to automatically discover invariance and equivariance from a dataset using a paradigm akin to generative adversarial training. Specifically, a symmetry generator learns a group of transformations applied to the data, which preserve the original distribution and fool the discriminator. This method can also be extended to discovery nonlinear symmetry transformations by introducing an autoencoder to learn a latent space where the group action is linearized. Our method can discover various symmetries such as the restricted Lorentz group $\mathrm{SO}(1,3)^+$ in top quark tagging and the nonlinear symmetries in various dynamical systems. Furthermore, we demonstrate how the learned symmetries can be used inductive biases to improve equation discovery algorithms in dynamical systems.</p>
+</details>
+<details>
+<summary>
+16:10-16:50. Talk 6. Dian Wang
+</summary>
+Title: Equivariant Policy Learning for Robotic Manipulation
+<p>Abstract: Despite the recent advances in machine learning methods for robotics, existing learning-based approaches often lack sample efficiency, posing a significant challenge due to the enormous time required to collect real-robot data. In this talk, I will present our innovative methods that tackle this challenge by leveraging the inherent symmetries in the physical environment. Specifically, I will outline a comprehensive framework of equivariant policy learning and its application across various robotic problem settings. Our methods significantly outperform state-of-the-art baselines while achieving these results with far less data, both in simulation and the real world. Furthermore, our approach demonstrates robustness in the presence of symmetry distortions, such as variations in camera angles.</p>
+</details>
+<p>16:50-17:00. Closing Remarks</p>
+<p>17:30-20:30. Social at Yard House. 110 Huntington Ave, Boston</p>
 <h3 id="social-and-poster-session-november-25-2024-at-mit">Social and Poster Session: November 25, 2024 at MIT</h3>
 <center>
 <table>

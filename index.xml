@@ -22,11 +22,9 @@ Follow us on Twitter @bostonsymmetry.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/past_events.html</guid>
-      <description>Social and Poster Session: November 25, 2024 at MIT       4:30-6:00. Poster session.
-Second Boston Symmetry Day: November 3, 2023 at MIT Schedule:
-9:00-9:30. Breakfast + Registration
+      <description>Third Boston Symmetry Day: March 31, 2025 at Northeastern         9:00-9:30. Breakfast + Registration
 9:30-9:40. Opening Remarks
-9:40-10:20. Talk 1 by Gabriele Corso, Bowen Jing, and Hannes Stark (MIT)</description>
+  9:40-10:20. Talk 1. Jiahui Fu  Title: NeuSE: Neural SE(3)-Equivariant Embedding for Long-Term Object-based Simultaneous Localization and Mapping Abstract: In this talk, we present NeuSE, a novel Neural SE(3)-Equivariant Embedding for objects, and illustrate how it supports object-based Simultaneous Localization and Mapping (SLAM) for consistent spatial understanding with long-term scene changes.</description>
     </item>
     
   </channel>
